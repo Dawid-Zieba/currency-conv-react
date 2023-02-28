@@ -11,7 +11,7 @@ In this project I made a currency converter which allows you to convert 4 curren
 - create-react-app
 - React
 ## Demo of the program
-
+https://dawid-zieba.github.io/currency-conv-react/
 # More information
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
