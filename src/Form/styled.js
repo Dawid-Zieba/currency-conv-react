@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledForm = styled.form`
     padding: 20px;
-    background-color: purple;
+    background-color: #993838;
     border-radius: 15px;
     margin: 20px;
 `;
@@ -24,7 +24,7 @@ export const Legend = styled.legend`
     font-size: 20px;
     `;
 
-    export const LabelText = styled.labelText`
+export const LabelText = styled.span`
     max-width: 500px;
     width: 100%;
     display: inline-block;
@@ -33,7 +33,7 @@ export const Legend = styled.legend`
     font-size: 20px;
     `;
 
-    export const Field = styled.field`
+export const Field = styled.input`
     flex-basis: 500px;
     width: 100%;
     padding: 5px;
@@ -44,11 +44,11 @@ export const Legend = styled.legend`
     margin: 0 auto;
     `;
 
-    export const StyledDiv = styled.div`
+export const StyledDiv = styled.div`
     flex-basis: 700px;
     margin: 20px;
     padding: 20px;
-    background: white;
+    background: #b99797;
     border-radius: 20px;
     box-shadow: 0 0 30px black;
 `;
