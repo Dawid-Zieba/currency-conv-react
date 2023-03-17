@@ -68,3 +68,38 @@ flex-basis: 500px;
     text-align: center;
     margin: 0 auto;
 `;
+
+export const StyledParagraph = styled.p`
+text-align: center;
+`;
+
+export const StyledParagraphLoading = styled.p`
+color: black;
+text-align: center;
+
+`;
+
+export const StyledParagraphFailure = styled.p`
+color: ${({ theme }) => theme.color.crimson};
+text-align: center;
+`;
+
+export const Button = styled.button`
+width: 100%;
+    border: none;
+    color: white;
+    background-color: #bb48488a;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    &:hover {
+        filter: brightness(110%);
+        transform: scale(1.03);
+    }
+    &:active {
+        filter: brightness(120%);
+    }
+
+`;
