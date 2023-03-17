@@ -1,11 +1,18 @@
 import {StyledParagraph} from "./styled"
 
-const Result = ({amount, currency, rate}) => {
-    const result = amount / rate;
+export const Result = ({ result }) => (
 
-    return (
-        <StyledParagraph>{result.toFixed(2)} {currency}</StyledParagraph>
-    )
-};
+    <StyledParagraph> 
+        {!!result && (
+        <>
+            {result.sourceAmount.toFixed(2)}&nbsp;PLN&nbsp;=
+            {" "}
+            <strong>
+                {result.targetAmount.toFixed(2)}&nbsp;{result.currency}
+            </strong>
+        </>
+    )}
+    </StyledParagraph>
+);
 
 export default Result;
