@@ -10,6 +10,8 @@ In this project I made a currency converter which allows you to convert 4 curren
 - Babel
 - create-react-app
 - React
+- Grid
+- Styled Components
 ## Demo of the program
 https://dawid-zieba.github.io/currency-conv-react/
 # More information
