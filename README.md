@@ -1,7 +1,8 @@
 # Currency exchange program
 ## Description
 In this project I made a currency converter which allows you to convert 4 currencies such as EUR, USD,CHF,GBP 
-![Animation-echange](https://user-images.githubusercontent.com/121859805/212170989-a4e835ad-01e0-4016-85f4-6eae9b0c8eed.gif)
+![Currency](https://user-images.githubusercontent.com/121859805/225867274-4896576b-d0ae-43ba-9a60-70c15533916a.gif)
+
 ## Technologies used in this project:
 - HTML
 - CSS
